@@ -11,7 +11,7 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  background-color: #070606;
+  background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
   min-height: 100vh;
 }
 
@@ -48,50 +48,13 @@ li {
   list-style: none;
 }
 
-.Pokedex {
-  text-align: center;
-}
-
-.Pokedex-card {
+.App {
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
-.Pokedex-winner {
-  color: #4caf50;
-}
-
-.Pokedex-loser {
-  color: #e91e63;
-}
-
-.Pokecard {
-  width: 300px;
-  padding: 10px;
-  margin: 1rem;
-  box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
-  text-align: center;
-  background-color: #fffdfa;
-  border-radius: 3px;
-  color: #070606;
-}
-
-.Pokecard-data {
-  font-size: 0.875rem;
-}
-
-.Pokecard-title {
-  margin-bottom: 1rem;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-.Pokecard img {
-  transition: all ease 500ms;
-}
-
-.Pokecard img:hover {
-  transform: scale(1.25);
-  opacity: 0.7;
-}
+/* .App button {
+  align-self: center;
+} */

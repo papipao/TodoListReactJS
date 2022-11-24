@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './app.css';
-import PokeGame from './components/PokeGame';
+import Todo from './components/todo/Todo';
 
-export class App extends Component {
+class App extends Component {
   render() {
     return (
-      <div>
-        <PokeGame />
+      <div className='App'>
+        <Todo />
       </div>
     );
   }
